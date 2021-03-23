@@ -1,0 +1,32 @@
+.App {
+  background-color: black;
+}
+
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.movies-list {
+  display: flex;
+  /* scroll horizontal */
+  overflow-x: auto;
+}
+
+.movies-list img {
+  width: 220px;
+}
+
+/* dissimuler la scroolbar horizontal sous chaque liste */
+.movies-list::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  margin: 0 0 40px 50px;
+}
